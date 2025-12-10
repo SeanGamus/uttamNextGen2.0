@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1, 
+        "productName": "Kaaka",
+        "ProductFunction": "An app for Pocket Tour Guide",
+        "link": "/kaaka"
+    },
+    {
+        "id": 2,
+        "productName": "License Chatbot",
+        "ProductFunction": "Provide answers related with multiple Software licenses",
+        "link": "/licensechatbot"
+    },
+    {
+        "id": 3, 
+        "productName": "Drawing",
+        "ProductFunction": "Windows application to draw your diagrams",
+        "link": "/drawing"
+    },
+    {
+        "id": 4,
+        "productName": "SN programming Language",
+        "ProductFunction": "A new programming language and its compiler",
+        "link": "/ProgramLang"
+    },
+    {
+        "id": 5, 
+        "productName": "Breath Detection",
+        "ProductFunction": "AI based inhalation, exhalaiton detection",
+        "link": "/detection"
+    }
+]
