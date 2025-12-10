@@ -29,7 +29,7 @@ const Product = ({ bgImg, title, subText, route, index }: ProductProp) => {
 const ProductSection = () => {
   const [slideIndex, setSlideIndex] = useState(0);
   return (
-    <section className="my-10">
+    <section id="product-section" className="my-10">
       <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start overflow-x-auto">
         {PRODUCTS.map((prod) => (
           <Product

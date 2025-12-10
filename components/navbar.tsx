@@ -6,10 +6,7 @@ import Button from "./button";
 import { useState } from "react";
 
 const Navbar = () => {
-  const handleLogin = () => {
-    console.log("Login");
-  };
-
+ 
   const [showMenu, setShowMenu] = useState(false);
 
   return (
@@ -29,16 +26,7 @@ const Navbar = () => {
             <span>{link.label}</span>
           </Link>
         ))}
-      </ul>
-
-      <div className="hidden lg:flex ">
-        <Button
-          callBack={handleLogin}
-          label="Login"
-          variant="btn_dark_green"
-          icon="/user.svg"
-        />
-      </div>
+      </ul>      
 
       <div className="relative flex lg:hidden">
         <Image
